@@ -1,0 +1,137 @@
+/*.blogimg {
+  max-height: 400px;
+  max-width: 400px;
+}*/
+
+.darkbackground {
+  background-color: #b2b2b2;
+}
+
+.darkbanner {
+  background-color: #999999;
+}
+.darknavbar {
+  background-color: #808080
+}
+
+.navbar-brand {
+  float: left;
+  padding: 15px 15px;
+  font-size: 1.286em;
+  line-height: 20px;
+  font-weight: 240;
+  letter-spacing: .143em;
+}
+
+.navbar-default .navbar-brand {
+  color: #333333;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #3d007a;
+  background-color: transparent;
+  font-weight: 240;
+}
+
+.navbar-default .navbar-text {
+  color: #333333;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #333333;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #3d007a;
+  background-color: transparent;
+}
+
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  box-shadow: .5em .5em .25em #888888;
+}
+
+/*.container-narrow {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #333333;
+
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}*/
+
+.comicimg {
+  max-height: 34em;
+  max-width: 16em;
+}
+
+.comicmaxsize {
+  max-height: 50em;
+  max-width: 50em;
+}
+
+.centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.btn-default {
+  color: #ffffff;
+  background-color: #3d007a;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #ffffff;
+  background-color: #5200a3;
+  border-color: #adadad;
+}
+
+a.anchorlink, a.hover, a.visited{
+  color: #333333;
+  text-decoration: none;
+}
+
+
+h1.ajmck-heading {
+  font-size: 4em !important;
+  font-weight: 400 !important;
+  color: #3d007a !important;
+}
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -100px;
+  /* Pad bottom by footer height */
+  padding: 0 0 100px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 100px;
+  background-color: #999999;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  box-shadow: .5em .5em .25em #888888;
+}
