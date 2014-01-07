@@ -7,12 +7,14 @@
   	<!-- Bootstrap -->
   	<link href="css/bootstrap.min.css" rel="stylesheet">
   	<link href="css/customstyles.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
     <script src="js/respond.js"></script>
 
   </head>
   
   
   <body class="darkbackground">
+<div id="wrap">
    <!--Nav Bar--> 
     <div class="container">
       <nav class="navbar navbar-default navbar-fixed-top darknavbar" role="navigation">
@@ -33,8 +35,8 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-picture navtext"></span> Art<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="portfolio.html#comics">Comics and Sketches</a></li>
                     <li><a href="portfolio.html#fantasy">Fantasy and Illustration</a></li>
+                    <li><a href="portfolio.html#comics">Comics and Sketches</a></li>
                     <li><a href="portfolio.html#pursuit">Pursuits in the 2nd and 3rd Dimensions</a></li>
                   </ul>
                 </li>
@@ -51,17 +53,22 @@
  <br/>
  <br/>
    <!--Row 1--> 
-     <a name="comics" class="anchorlink"><div class="row"></a>
-      <h1><b>Comics and Sketches</b></h1></a>
+    <a name="fantasy" class="anchorlink"><div class="row"></a>
+      <h1><b>Fantasy and Illustration</b></h1>
       <br/>
         <div class="col-md-4">
-            <img src="img/Synaptogenesis.jpg" class="img-responsive img-rounded">
+          <a href="portfolio/pinepass.html">
+            <img src="img/snowypath.png" class="img-responsive img-rounded">
         </div>
         <div class="col-md-4">
-            <img src="img/CatButt.jpg" class="img-responsive img-rounded">
+          <a href="portfolio/mountainnight.html">
+            <img src="img/mountainatnight.png" class="img-responsive img-rounded">
+          </a>
         </div>
         <div class="col-md-4">
-            <img src="img/PortraitCurls.jpg" class="img-responsive img-rounded">
+          <a href="portfolio/forestmountain.html">
+            <img src="img/ForestMountain.jpg" class="img-responsive img-rounded">
+          </a>
         </div>
      </div>
    <!--end row 1-->
@@ -69,17 +76,23 @@
 <br/>
 <br/>
    <!--row 2-->
-     <a name="fantasy" class="anchorlink"><div class="row"></a>
-      <h1><b>Fantasy and Illustration</b></h1>
+     <a name="comics" class="anchorlink"><div class="row"></a>
+      <h1><b>Comics and Sketches</b></h1></a>
       <br/>
         <div class="col-md-4">
-            <img src="img/PurpleMountains.jpg" class="img-responsive img-rounded">
+          <a href="portfolio/synaptogenesis.html">
+            <img src="img/Synaptogenesis.jpg" class="img-responsive img-rounded">
+          </a>
         </div>
         <div class="col-md-4">
-            <img src="img/Hedgehog.jpg" class="img-responsive img-rounded">
+          <a href="portfolio/catbutt.html">
+            <img src="img/CatButt.jpg" class="img-responsive img-rounded">
+          </a>
         </div>
         <div class="col-md-4">
-            <img src="img/ForestMountain.jpg" class="img-responsive img-rounded">
+          <a href="portfolio/portraitcurls.html">
+            <img src="img/PortraitCurls.jpg" class="img-responsive img-rounded">
+          </a>
         </div>
      </div>
    <!--end row 2-->
@@ -91,13 +104,19 @@
       <h1><b>Pursuits in the Second and Third Dimensions</b></h1>
       <br/>
         <div class="col-md-4">
-            <img src="img/Beads.jpg" class="img-responsive img-rounded">
+          <a href="portfolio/earrings.html">
+            <img src="img/Earrings.jpg" class="img-responsive img-rounded">
+          </a>
         </div>
         <div class="col-md-4">
+          <a href="portfolio/fairyswing.html">
             <img src="img/FairySwing.jpg" class="img-responsive img-rounded">
+          </a>
         </div>
         <div class="col-md-4">
+          <a href="portfolio/sunrisetrees.html">
             <img src="img/SunriseTrees.jpg" class="img-responsive img-rounded">
+          </a>
         </div>
      </div>
    <!--end row 3-->
@@ -107,13 +126,14 @@
  <br/>
  <br/>
  <br/>
-   <!--row 2-->
-    <div>
-      <div class="col-md-12 darkbanner" id="footer">
-        <br/>
-        <p> Copyright AJMcK forever</p>
-      </div>
     </div>
+</div>
+   <!--row 2-->
+   <div id="footer">
+            <div style="background-color: #333333; color: #808080;" class="jumbotron">
+              <p> (c) AJMcK 2013 </p>
+            </div>
+        </div>
    <!--end row 2-->
 <!--Javascript-->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>

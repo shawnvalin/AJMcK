@@ -1,17 +1,17 @@
-/*.blogimg {
-  max-height: 400px;
-  max-width: 400px;
-}*/
 
 .darkbackground {
-  background-color: #b2b2b2;
+  background-color: #1a1824;
 }
 
 .darkbanner {
-  background-color: #999999;
+  background-color: #56575E;
 }
 .darknavbar {
-  background-color: #808080
+  background-color: #333333
+}
+
+body {
+  color: #808080;
 }
 
 .navbar-brand {
@@ -24,27 +24,27 @@
 }
 
 .navbar-default .navbar-brand {
-  color: #333333;
+  color: #808080;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #3d007a;
+  color: #d6d6ff;
   background-color: transparent;
   font-weight: 240;
 }
 
 .navbar-default .navbar-text {
-  color: #333333;
+  color: #808080;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #333333;
+  color: #808080;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #3d007a;
+  color: #d6d6ff;
   background-color: transparent;
 }
 
@@ -54,7 +54,7 @@
   font-size: 21px;
   font-weight: 200;
   line-height: 2.1428571435;
-  box-shadow: .5em .5em .25em #888888;
+  box-shadow: .5em .5em .25em #4D4E55;
 }
 
 /*.container-narrow {
@@ -84,8 +84,8 @@
 }
 
 .btn-default {
-  color: #ffffff;
-  background-color: #3d007a;
+  color: #cfcfd4;
+  background-color: #4a3a84;
 }
 
 .btn-default:hover,
@@ -107,31 +107,38 @@ a.anchorlink, a.hover, a.visited{
 h1.ajmck-heading {
   font-size: 4em !important;
   font-weight: 400 !important;
-  color: #3d007a !important;
+  color: #1f1f2e !important;
 }
 
-html,
+ html,
 body {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
 }
-
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
-  height: auto;
-  /* Negative indent footer by its height */
-  margin: 0 auto -100px;
-  /* Pad bottom by footer height */
-  padding: 0 0 100px;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
 }
 
 /* Set the fixed height of the footer here */
+#push,
 #footer {
-  height: 100px;
+  height: 60px;
+}
+#footer {
   background-color: #999999;
-  font-size: 21px;
-  font-weight: 200;
-  line-height: 2.1428571435;
-  box-shadow: .5em .5em .25em #888888;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+#footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 }

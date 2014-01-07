@@ -7,6 +7,7 @@
   	<!-- Bootstrap -->
   	<link href="css/bootstrap.min.css" rel="stylesheet">
   	<link href="css/customstyles.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
     <script src="js/respond.js"></script>
   </head>
   
@@ -34,8 +35,8 @@
     						<li class="dropdown">
                   <a href="portfolio.html" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-picture navtext"></span> Art<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="portfolio.html#comics">Comics and Sketches</a></li>
                     <li><a href="portfolio.html#fantasy">Fantasy and Illustration</a></li>
+                    <li><a href="portfolio.html#comics">Comics and Sketches</a></li>
                     <li><a href="portfolio.html#pursuit">Pursuits in the 2nd and 3rd Dimensions</a></li>
                   </ul>
                 </li>
@@ -60,33 +61,44 @@
      <div class="row">
       <!--column left-->
         <div class="col-md-5 col-md-offset-1">
-          <a href="http://ajmck.wordpress.com/" target="_blank"><img class="img-responsive img-rounded" src="img/blogdec212013.png"></a>
+          <a href="http://ajmck.wordpress.com/" target="_blank"><img class="img-responsive img-rounded" src="img/fetchblog.png" style="border: 2px; border-color: #29293d; border-style: outset;"></a>
             <br/>
-            <a href="http://ajmck.wordpress.com/" target="_blank" class="btn btn-default btn-default btn-lg">Recent Posts</a>
+            <a href="http://ajmck.wordpress.com/" target="_blank" class="btn btn-default btn-default btn-lg hidden-md hidden-lg">Recent Posts</a>
         </div>
 
       <!--column right-->
         <div class="col-md-5 col-md-offset-1">
-          <a href="comicmain.html"><img class="img-responsive img-square comicimg" src="img/RL1000px.png"></a>
+          <a href="comicmain.html"><img class="img-responsive img-square comicimg" src="img/RL1000px.png" ></a>
             <br/>
-              <a href="comicmain.html" class="btn btn-default btn-default btn-lg">Recent Comic</a>
+              <a href="comicmain.html" class="btn btn-default btn-default btn-lg hidden-md hidden-lg">Latest Comic</a>
         </div>
     </div>
    <!--end row 2-->
- <br/>
- <br/>
- <br/>
- <br/>
 
    <!--row 3-->
-    <div id="footer">
-      <div class="container col-md-12 darkbanner">
-        <br/>
-        <p> Copyright AJMcK forever</p>
-      </div>
+    <div class="row">
+        <!--button left-->
+          <div class="col-md-2 col-md-offset-1">
+            <a href="http://ajmck.wordpress.com/" target="_blank" class="btn btn-default btn-default btn-lg hidden-sm hidden-xs">Recent Posts</a>  
+          </div>
+        <!--end button left-->
+          <div class="col-md-2 col-md-offset-4">
+            <a href="comicmain.html" class="btn btn-default btn-default btn-lg hidden-sm hidden-xs">Latest Comic</a>
+          </div>
     </div>
- </div>
-   <!--end row 3-->
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+    </div>
+   <!--row 4-->     
+</div>
+        <div id="footer">
+            <div style="background-color: #333333; color: #808080;" class="jumbotron">
+              <p> (c) AJMcK 2013 </p>
+            </div>
+        </div>
+   <!--end row 4-->
 <!--Javascript-->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -99,6 +111,5 @@
       ga('create', 'UA-46643642-1', 'ajmck.com');
       ga('send', 'pageview');
     </script>
-</div>
   </body>
 </html>
