@@ -1,10 +1,22 @@
 
 .darkbackground {
-  background-color: #1a1824;
+  background-color: #ffffff;
 }
 
 .darkbanner {
   background-color: #56575E;
+}
+
+.smallbanner{
+  background-color: #5c3d6d;
+  height: 60px;
+}
+
+.xsbanner{
+  background-color: #5c3d6d;
+  height: 100px;
+  margin-bottom: 30px;
+  padding-bottom: :30px;
 }
 .darknavbar {
   background-color: #333333
@@ -12,6 +24,7 @@
 
 body {
   color: #808080;
+  padding: 0px;
 }
 
 .navbar-brand {
@@ -57,15 +70,54 @@ body {
   box-shadow: .5em .5em .25em #4D4E55;
 }
 
-/*.container-narrow {
-  margin: 0 auto;
-  max-width: 1200px;
-  background-color: #333333;
-
+.storejumbo {
+  margin-bottom: 60px;
+  padding-bottom: 100px;
+  box-shadow: none;
+  height: 400px;
+  /*width: 65%;*/
+  background-image: url(../img/storejumbo2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
 }
 
-.container-narrow > hr {
-  margin: 30px 0;
+.headerjumbo {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  box-shadow: none;
+  background-color: #ffffff;
+  height: 300px;
+}
+
+/*.signupform {
+  color: #000;
+  box-shadow: none;
+  height: 530px;
 }*/
 
 .comicimg {
@@ -83,9 +135,19 @@ body {
     margin: 0 auto;
 }
 
+.paddingstandard {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#email-banner {
+  font-size: 14pt;
+  color: #ffffff;
+}
+
 .btn-default {
-  color: #cfcfd4;
-  background-color: #4a3a84;
+  color: #ffffff;
+  background-color: #3d3072;
 }
 
 .btn-default:hover,
@@ -94,7 +156,7 @@ body {
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
   color: #ffffff;
-  background-color: #5200a3;
+  background-color: #531096;
   border-color: #adadad;
 }
 
@@ -127,7 +189,7 @@ body {
 /* Set the fixed height of the footer here */
 #push,
 #footer {
-  height: 60px;
+  height: 100px;
 }
 #footer {
   background-color: #999999;
